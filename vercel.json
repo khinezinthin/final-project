@@ -1,0 +1,4 @@
+{
+    "rewrites": [{ "source": "/custom-route", "destination": "/index.html" }]
+  }
+  
