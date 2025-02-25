@@ -2302,11 +2302,6 @@
       align-items: flex-start;
     }
   }
-  .max-md\:justify-center {
-    @media (width < 48rem) {
-      justify-content: center;
-    }
-  }
   .max-md\:gap-5 {
     @media (width < 48rem) {
       gap: calc(var(--spacing) * 5);
@@ -2315,11 +2310,6 @@
   .max-md\:gap-10 {
     @media (width < 48rem) {
       gap: calc(var(--spacing) * 10);
-    }
-  }
-  .max-md\:text-center {
-    @media (width < 48rem) {
-      text-align: center;
     }
   }
   .max-md\:text-base {
