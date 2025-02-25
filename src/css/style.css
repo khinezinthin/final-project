@@ -388,6 +388,9 @@
       max-width: 96rem !important;
     }
   }
+  .m-45 {
+    margin: calc(var(--spacing) * 45);
+  }
   .my-20 {
     margin-block: calc(var(--spacing) * 20);
   }
@@ -510,6 +513,9 @@
   }
   .h-1 {
     height: calc(var(--spacing) * 1);
+  }
+  .h-5 {
+    height: calc(var(--spacing) * 5);
   }
   .h-\[3px\] {
     height: 3px;
