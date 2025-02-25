@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
   </head>
   <body class="bg-[#f5f5f5]">
     <header class="mb-20 max-sm:mb-5 sticky top-0 bg-[#f5f5f5] z-9">
@@ -21,7 +21,7 @@
             <a href="./index.html">Home</a>
           </li>
           <li
-            class="hover:text-primary hover:scale-105 cursor-pointer transition"
+            class="hover:text-primary text-primary font-bold hover:scale-105 cursor-pointer transition"
           >
             <a href="./works.html">Works</a>
           </li>
@@ -31,7 +31,7 @@
             <a href="./about.html">About</a>
           </li>
           <li
-            class="hover:text-primary text-primary font-bold hover:scale-105 cursor-pointer transition"
+            class="hover:text-primary hover:scale-105 cursor-pointer transition"
           >
             <a href="./contact.html">Contact</a>
           </li>
@@ -63,7 +63,7 @@
 
         <!-- Mobile Sidebar -->
         <div
-          class="fixed inset-y-0 z-10 left-0 w-64 bg-white shadow-lg transform -translate-x-full peer-checked:translate-x-0 transition-transform duration-300 ease-in-out max-md:block hidden"
+          class="fixed inset-y-0 left-0 w-64 bg-white shadow-lg transform -translate-x-full peer-checked:translate-x-0 transition-transform duration-300 ease-in-out max-md:block hidden z-10"
         >
           <ul class="p-4 space-y-4">
             <li>
@@ -77,7 +77,9 @@
               >
             </li>
             <li>
-              <a href="./works.html" class="block p-2 hover:bg-gray-200"
+              <a
+                href="./works.html"
+                class="block p-2 hover:bg-gray-200 bg-gray-200"
                 >Works</a
               >
             </li>
@@ -87,9 +89,7 @@
               >
             </li>
             <li>
-              <a
-                href="./contact.html"
-                class="block p-2 bg-gray-200 hover:bg-gray-200"
+              <a href="./contact.html" class="block p-2 hover:bg-gray-200"
                 >Contact</a
               >
             </li>
@@ -98,23 +98,109 @@
       </nav>
     </header>
     <div class="custom-container">
+      <!-- works  -->
+      <section>
+        <div class="flex justify-between items-center mb-10">
+          <div class="flex items-center gap-3">
+            <div class="w-5 h-[3px] bg-neutral-900"></div>
+            <p class="font-medium text-2xl max-sm:text-base">All Works</p>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-3 max-sm:grid-cols-1 gap-x-5 gap-y-10">
+          <div class="cursor-pointer hover:scale-105 duration-300">
+            <img
+              class="rounded-xl mb-4 object-cover"
+              src="../images/img1.png"
+              alt=""
+            />
+
+            <div class="flex flex-col gap-1">
+              <p class="text-neutral-900 font-semibold">FreshCart UI</p>
+              <p class="text-neutral-500">FreshCart (Grocery Delivery)</p>
+            </div>
+          </div>
+
+          <div class="cursor-pointer hover:scale-105 duration-300">
+            <img
+              class="rounded-xl mb-4 object-cover"
+              src="../images/img2.png"
+              alt=""
+            />
+
+            <div class="flex flex-col gap-1">
+              <p class="text-neutral-900 font-semibold">FreshCart UI</p>
+              <p class="text-neutral-500">FreshCart (Grocery Delivery)</p>
+            </div>
+          </div>
+
+          <div class="cursor-pointer hover:scale-105 duration-300">
+            <img
+              class="rounded-xl mb-4 object-cover"
+              src="../images/img3.png"
+              alt=""
+            />
+
+            <div class="flex flex-col gap-1">
+              <p class="text-neutral-900 font-semibold">FreshCart UI</p>
+              <p class="text-neutral-500">FreshCart (Grocery Delivery)</p>
+            </div>
+          </div>
+
+          <div class="cursor-pointer hover:scale-105 duration-300">
+            <img
+              class="rounded-xl mb-4 object-cover"
+              src="../images/img4.png"
+              alt=""
+            />
+
+            <div class="flex flex-col gap-1">
+              <p class="text-neutral-900 font-semibold">FreshCart UI</p>
+              <p class="text-neutral-500">FreshCart (Grocery Delivery)</p>
+            </div>
+          </div>
+
+          <div class="cursor-pointer hover:scale-105 duration-300">
+            <img
+              class="rounded-xl mb-4 object-cover"
+              src="../images/img5.png"
+              alt=""
+            />
+
+            <div class="flex flex-col gap-1">
+              <p class="text-neutral-900 font-semibold">FreshCart UI</p>
+              <p class="text-neutral-500">FreshCart (Grocery Delivery)</p>
+            </div>
+          </div>
+
+          <div class="cursor-pointer hover:scale-105 duration-300">
+            <img
+              class="rounded-xl mb-4 object-cover"
+              src="../images/img6.png"
+              alt=""
+            />
+
+            <div class="flex flex-col gap-1">
+              <p class="text-neutral-900 font-semibold">FreshCart UI</p>
+              <p class="text-neutral-500">FreshCart (Grocery Delivery)</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr class="border-b border-neutral-200 my-20 max-sm:my-10" />
+
       <!-- contact me  -->
       <section>
         <div
-          class="flex max-xl:flex-col max-xl:items-center justify-between items-start mb-20"
+          class="flex max-sm:flex-col max-sm:items-start max-sm:gap-5 justify-between items-start mb-20"
         >
-          <p
-            class="text-neutral-800 font-semibold text-[40px] max-sm:text-xl max-xl:text-center w-[405px] max-xl:w-[600px] max-sm:w-[170px] max-xl:mb-10"
-          >
-            Have a project or just want to chat? Reach out!
-          </p>
+          <div class="flex items-center gap-3">
+            <div class="w-5 h-[3px] bg-neutral-900"></div>
+            <p class="font-medium text-2xl max-sm:text-base">Contact Me</p>
+          </div>
 
           <div class="w-[644px] max-sm:w-full">
-            <div class="items-center gap-3 max-sm:mb-5 hidden max-sm:flex">
-              <div class="w-5 h-[3px] bg-neutral-900"></div>
-              <p class="font-medium text-2xl max-sm:text-base">Contact Me</p>
-            </div>
-
             <p class="text-2xl text-neutral-700 mb-5 max-sm:text-base">
               Send a message
             </p>
