@@ -1,0 +1,20 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* parent a tuu kat yat h1 a kone phan  */
+/* #checkbox:checked ~ h1{
+    color: blue;
+} */
+
+/* parent a tuu kat yat h1 ta khu pl phan */
+#checkbox:checked ~ h1, #checkbox2:checked ~ h1{
+    color: blue;
+}
+
+
+h1{
+    color: red;
+}
